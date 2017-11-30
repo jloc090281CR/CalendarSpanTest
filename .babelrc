@@ -1,0 +1,35 @@
+{
+  "presets": [
+    [
+      "es2015",
+      {
+        "modules": false // "Webpack 2 in ES modules mode" aka native es2015 modules (for tree shaking)
+      }
+    ],
+    "react",
+    "stage-3"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "transform-async-to-generator",
+    "syntax-async-functions",
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }]
+  ],
+  "env": {
+    "development": {
+      "presets": ["react-hmre"]
+    },
+    "test": {
+      "presets": [
+        "es2015",
+        "react",
+        "stage-3"
+      ]
+    }
+  }
+}

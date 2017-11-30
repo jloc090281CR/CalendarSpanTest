@@ -1,0 +1,19 @@
+{
+  "extends": ["standard", "standard-react"],
+  "globals": {
+    "shallowRender": true,
+    "expect": true,
+    "describe": true,
+    "xdescribe": true,
+    "it": true,
+    "afterEach": true,
+    "beforeEach": true
+  },
+  "rules": {
+    "react/jsx-no-bind": [2, {
+      "allowBind": true,
+      "allowArrowFunctions": true,
+      "ignoreRefs": false
+    }]
+  }
+}

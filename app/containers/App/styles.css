@@ -1,0 +1,16 @@
+.app {
+  box-shadow: rgba(0, 0, 0, .156863) 0px 3px 10px, rgba(0, 0, 0, .227451) 0px 3px 10px;
+  left: 25px;
+  height: 186px;
+  position: relative;
+  top: 25px;
+  width: 25%;
+  padding: 10px;
+}
+
+.calendarDiv {
+  position: relative;
+  top: 30px;
+  border-collapse: collapse;
+  font-family: Georgia, Times, serif;
+}
