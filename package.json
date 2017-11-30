@@ -1,7 +1,7 @@
 {
-  "name": "number8_jason_test",
+  "name": "calendar_span_test",
   "version": "0.0.1",
-  "description": "Number8 front end test",
+  "description": "Calendar span test",
   "main": "app/index.js",
   "scripts": {
     "build": "NODE_ENV=production webpack --config ./config/webpack.config.prod.js",
